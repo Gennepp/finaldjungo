@@ -83,14 +83,14 @@ WSGI_APPLICATION = 'inventory.wsgi.application'
 # }
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'stockdb',
-    #     'USER' : 'root',
-    #     'PASSWORD' : '',
-    #     'HOST' : 'localhost',
-    #     'PORT' : '3306',
-    # }
+    #  'default': {
+    #      'ENGINE': 'django.db.backends.mysql',
+    #      'NAME': 'stockdb',
+    #      'USER' : 'root',
+    #      'PASSWORD' : '',
+    #      'HOST' : 'localhost',
+    #      'PORT' : '3306',
+    #  }
 }
 
 
