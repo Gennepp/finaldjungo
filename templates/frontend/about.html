@@ -1,13 +1,37 @@
- {% extends 'frontend/base.html' %} 
- {% block title %} About {% endblock %}
- {% block content %}
- <div class="jumbotron">
-     <h1 class="display-3">About</h1>
-     <p class="lead">Jumbo helper text</p>
-     <hr class="my-2">
-     <p>More info</p>
-     <p class="lead">
-         <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-     </p>
- </div>
-  {% endblock %}
+ {% extends 'frontend/base.html' %}
+{% block title %} About {% endblock %}
+{% block content %}
+<div class="container">
+<div class="media">
+    <div class="media-body justify-content-center" style="margin-top:80px;">
+      <h2 class="mt-0 mb-1">About</h2>
+        <div style="text-indent:13%; font-size:20;"></div>
+        <div style="text-indent:13%; font-size:20;"><br></div>
+    </div>
+    <img src="static/image/coffabout.jpg" class="ml-3 d-block w-50" alt="...">
+</div>
+
+
+<div class="card-deck" style="margin-top:20px;">
+    <div class="card text-white bg-dark mb-3" >
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="static/image/coff1.jpg" class="card-img d-block w-100" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">cof·fee</h4>
+            <p class="card-text" style="text-indent:13%; font-size:17;"> 'You are brewtiful' is made by the coffee lover's heart that passionate about 
+            coffee from around the world and want to share how amazing they are . I look forward to bringing people an wonderful cup. 
+            It is my passion to provide you guys with a quality experience each time we work together. 
+
+</p>
+            <p class="card-text"><small class="text-muted">Gennepp<br>
+                October 1, 2020</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
